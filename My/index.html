@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link href="./styles/main.css" rel="stylesheet" type="text/css">
+    <script src="./scripts/jquery-1.12.0.min.js"></script>
+    <script src="./scripts/underscore.js"></script>
+    <script src="./scripts/backbone.js"></script>
+    <script src="./scripts/main.js" rel="script"></script>
+</head>
+<body>
+<div class="main">
+    <div class="log"></div>
+    <div class="output">0</div>
+    <div class="buttons">
+
+        <div class="containerm">
+            <div value="memoryClear" class="membutton bmc">MC</div>
+            <div value="memoryMinus" class="membutton bmm">M-</div>
+            <div class="central">
+                <div value="memoryRetrieve" class="membutton bmr">MR</div>
+                <div value="memoryPlus" class="membutton bmp">M+</div>
+                <div value="memorySet" class="membutton bms">MS</div>
+            </div>
+        </div>
+
+        <div class="container0">
+            <div value="backspace" class="opbutton bsp">&#8592;</div>
+            <div value="sqrt" class="singlemathbutton bv">&#8730;</div>
+            <div class="central">
+                <div value="clear" class="opbutton bc">C</div>
+                <div value="plusMinus" class="singlemathbutton bpm">&#177;</div>
+                <div value="cancelEntry" class="opbutton bce">CE</div>
+            </div>
+        </div>
+
+        <div class="container1">
+            <div value="7" class="numbutton b7">7</div>
+            <div value="percentage" class="singlemathbutton bperc">%</div>
+            <div class="central">
+                <div value="8" class="numbutton b8">8</div>
+                <div value="divide" class="mathbutton bdiv">/</div>
+                <div value="9" class="numbutton b9">9</div>
+            </div>
+        </div>
+
+        <div class="container2">
+            <div value="4" class="numbutton b4">4</div>
+            <div value="oneDivideX" class="singlemathbutton b1x">1/x</div>
+            <div class="central">
+                <div value="5" class="numbutton b5">5</div>
+                <div value="multiply" class="mathbutton bmul">*</div>
+                <div value="6" class="numbutton b6">6</div>
+            </div>
+
+        </div>
+        <div class="container3">
+            <div value="1" class="numbutton b1">1</div>
+            <div value="sum" class="mathbutton bsum">+</div>
+            <div class="central">
+                <div value="2" class="numbutton b2">2</div>
+                <div value="subtract" class="mathbutton bminus">-</div>
+                <div value="3" class="numbutton b3">3</div>
+            </div>
+        </div>
+
+        <div class="container4">
+            <div value="0" class="numbutton b0">0</div>
+            <div value="calculate" class="mathbutton bcalc">=</div>
+            <div value="dot" class="numbutton bdot">.</div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

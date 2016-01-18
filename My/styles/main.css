@@ -1,0 +1,134 @@
+body {
+    background-color: #555;
+    font-family: Monaco, Menlo, 'Ubuntu Mono', Consolas, source-code-pro, monospace;;
+}
+
+.main {
+    background-color: cadetblue;
+    width: 250px;
+    height: 322px;
+    border: 1px solid;
+    border-color: #1a484a;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
+
+
+
+
+
+.log {
+    margin: 5px 5px 0px 5px;
+    padding: 5px;
+    text-align: right;
+    border: 1px solid;
+    border-bottom: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 20px;
+    background-color: beige;
+}
+
+.output {
+    background-color: beige;
+    padding: 5px;
+    text-align: right;
+    font-size: x-large;
+    border: 1px solid;
+    border-top: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin: 0px 5px 5px 5px;
+
+}
+
+
+
+.container0, .container1, .container2, .container3, .container4, .containerm {
+    width:100%;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.containerm {
+    margin-bottom: 15px;
+}
+
+.numbutton, .opbutton, .mathbutton, .singlemathbutton, .membutton {
+    width:42px;
+    height:25px;
+    border: 1px solid;
+    line-height: 25px;
+    font-size: large;
+    text-align:center;
+    border-radius: 5px;
+    cursor: default;
+}
+
+
+.numbutton {
+    background-color: #92d9db;
+    border-color: #1a484a;
+}
+
+.numbutton:hover {
+    background-color: #a9f8fa;
+}
+
+.opbutton {
+    background-color: #b55b42;
+    border-color: #411d14;
+}
+
+.opbutton:hover {
+    background-color: coral;
+}
+
+.mathbutton,
+.singlemathbutton {
+    background-color: #75cf75;
+    border-color: #203a20;
+}
+
+.mathbutton:hover,
+.singlemathbutton:hover {
+    background-color: #a0ffa0;
+}
+
+.membutton {
+    background-color: #adad95;
+    border-color: #3c3c3c;
+}
+
+.membutton:hover {
+    background-color: #ddddbe;
+    border-color: #3c3c3c;
+}
+
+.membuttonfull {
+    background-color: darkorchid;
+    border-color: #3c3c3c;
+}
+
+.membuttonfull:hover {
+    background-color: #ca33fe;
+}
+
+.bsp, .bc, .b0, .b1, .b4, .b7, .b8, .b5, .b2, .bmc, .bmr {
+    float:left;
+    margin-left: 5px;
+}
+
+.bv, .bpm, .bperc, .bdiv, .b1x, .bmul, .bsum, .bminus, .bcalc, .bmm, .bmp {
+    float:right;
+    margin-right: 5px;
+}
+
+.central, .bce, .b9, .b6, .b3, .bdot, .bms {
+    margin:0 auto;
+}
+
+.b0, .bcalc {
+    width: 89px;
+}
